@@ -1,3 +1,16 @@
+# Note to BrightHivers
+
+This is a [Jekyll](https://jekyllrb.com/) theme forked from [just-the-docs](https://github.com/pmarsceill/just-the-docs). As of 08/17/2020, it is barely altered from the original. This repo, **under this name** (bh-just-the-docs-theme) is the source of the **remote theme** underlying the resource library hosted in the repo called `316ef7d8c202d47efb6d457ebe842927d2cb746d`. If the name of this directory is changed, the resource library will **break**.
+
+## Why are we hosting this forked theme ourselves?
+
+There are two ways to serve Jekyll blogs on GitHub Pages. The first is to build the blog locally and then commit it to the associated repo. This requires some familiarity with the command line. The second way is to simply upload the markdown files that make up the blog and point Jekyll to a **remote theme**. In this second case, it is not necessary to build the site locally: additions can be made simply by uploading markdown files.
+
+To save (comparatively) nontechnical BH employees the trouble of building the blog locally, I've chosen the second path here. Additionally, the original `just-the-docs` repo is still under development, so changes made by its developer will appear on the pages we are using it as a template for. This problem is solved by forking the original repo and pointing the resource library here as the remote theme.
+
+This will also allow us to continue making design changes to the layout in perpetuity.
+
+
 <p align="right">
     <a href="https://badge.fury.io/rb/just-the-docs"><img src="https://badge.fury.io/rb/just-the-docs.svg" alt="Gem version"></a> <a href="https://github.com/pmarsceill/just-the-docs/actions?query=workflow%3A%22Master+branch+CI%22"><img src="https://github.com/pmarsceill/just-the-docs/workflows/Master%20branch%20CI/badge.svg" alt="Build status"></a>
 </p>
